@@ -1,0 +1,14 @@
+//更新新闻
+curl -i -X PUT -H 'Content-Type: application/json' -d '{"NewsId": 13, "Title": "2tqg讲噶来看", "Content": "8jg289g哈哈"}' http://127.0.0.1:8080/news/update
+
+//添加新闻
+curl -i -X POST -H 'Content-Type: application/json'  -d '{"Title": "2tqg讲噶来看", "Content": "8jg289g哈哈"}' http://127.0.0.1:8080/2.0.1/news/add
+
+//删除新闻
+curl -i -X PUT -H 'Content-Type: application/json'  http://127.0.0.1:8080/2.0.1/news/delete/13
+
+//新闻详情
+http://127.0.0.1:8080/2.0.1/news/15
+
+新闻列表
+http://127.0.0.1:8080/2.0.1/news/list/1/20

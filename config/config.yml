@@ -1,0 +1,11 @@
+APPName: test
+
+DB:
+    Name:     test
+    User:     root
+    Password: password
+    Port:     3306
+    
+Redis:
+    Host:     127.0.0.1
+    Port:     6379
